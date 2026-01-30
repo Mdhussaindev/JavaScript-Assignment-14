@@ -9,7 +9,7 @@ let enemyX = 900;
 
 const animations = {
   idle: "Assets/m-spiderman.gif",
-  walk: "Assets/spidey-walk1.gif",
+  walk: "walk 1",
   jump: "Assets/spidey-dashing.gif",
   win: "Assets/spder.png"
 };
