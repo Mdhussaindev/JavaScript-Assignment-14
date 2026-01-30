@@ -1,0 +1,83 @@
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+.container {
+width: 1300px;
+height: 900px;
+margin: auto;
+background: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.canvasBox {
+width: 100%;
+height: 100%;
+background: url("Assets/night.png") no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 260px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.controls h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.controls p {
+  margin: 6px 0;
+}
+
+
+.hero {
+width: 250px;
+height: 250px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+
+.hero img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+#hero, #enemy {
+  position: absolute;
+  bottom: 0;
+}
+#hero {
+    bottom: 10px;
+}
+
+#enemy {
+  left: 900px;   /* samnay khara */
+}
+#enemy img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
